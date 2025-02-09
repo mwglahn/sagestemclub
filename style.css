@@ -53,10 +53,16 @@ html, body {
 
 /* CSS for the about me page*/
 
+#about {
+  text-align: center;
+}
+
 .col{
   float: left;
   width: 25%;
   margin-bottom:16px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0 8px;
 }
 
