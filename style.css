@@ -59,8 +59,8 @@ html, body {
     display: block;
   }
 
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
+  .topnavresponsive {position: relative;}
+  .topnavresponsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
