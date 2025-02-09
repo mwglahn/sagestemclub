@@ -26,7 +26,7 @@ html, body {
 .topnav a.imagebutton {
   float: left;
   text-align: center;
-  padding: 14px 5px;
+  padding: 5px 16px;
 }
 
 /* Change the color of links on hover */
