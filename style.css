@@ -11,12 +11,7 @@ html, body {
   overflow: hidden;
   box-shadow: 0px 5px #bababa;
 }
-/* Style for the image button*/
-.topnav #imagebutton {
-  float: left;
-  text-align: center;
-  padding: 14px 5px;
-}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -25,6 +20,13 @@ html, body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+/* Style for the image button*/
+.topnav #imagebutton {
+  float: left;
+  text-align: center;
+  padding: 14px 5px;
 }
 
 /* Change the color of links on hover */
