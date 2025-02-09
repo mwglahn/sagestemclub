@@ -41,12 +41,12 @@ html, body {
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .topnav a.imagebutton{
-    padding: 0px 10px;
+    padding: 10px 0px;
     width: 100%
   }
 
   .topnav a.button {
-    padding: 0px 20px;
+    padding: 20px 0px;
     font-size: 16px;
     width: 100%
   }
