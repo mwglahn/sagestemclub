@@ -6,13 +6,7 @@ html, body {
   font-family: Verdana, sans-serif;
 }
 
-/*INDEX HTML CSS*/
-
-article {
-  padding: 0 10%;
-}
-
-/*topnav */
+/*TOP NAV */
 .topnav {
   /*background-color: white;*/
   padding-left: 30px;
@@ -58,11 +52,33 @@ article {
   }
 
   .topnav a.button {
-    padding: 7px 0px;
-    font-size: 16px;
-    width: 100%
+    display:none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
+
+/*INDEX HTML CSS*/
+
+article {
+  padding: 0 10%;
+}
+
 
 /*ABOUT HTML CSS*/
 
