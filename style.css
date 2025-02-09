@@ -31,7 +31,6 @@ html, body {
 }
 /* Style the links inside the navigation bar */
 .topnav a.button {
-  position: fixed;
   float: left;
   color: black;
   text-align: center;
