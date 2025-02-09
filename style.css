@@ -78,7 +78,8 @@ html, body {
 @media only screen and (max-width: 650px) {
   .col {
     width: 80%;
-    margin: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
