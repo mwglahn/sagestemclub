@@ -52,6 +52,9 @@ html, body {
 }
 
 /* CSS for the about me page*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 #about {
   text-align: center;
