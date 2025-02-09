@@ -49,10 +49,10 @@ html, body {
   /* For mobile phones: */
 
   .topnav {
-    padding: 19px 0;
+    padding: 0;
   }
   .topnav a.imagebutton{
-    padding: 10px 0;
+    padding: 10px 0px;
     width: 80%;
     text-align: left;
   }
@@ -65,7 +65,7 @@ html, body {
     width: 20%;
     float: right;
     display: block;
-    padding: 0;
+    padding: 19px 0;
   }
   
   .topnavresponsive {position: relative;}
