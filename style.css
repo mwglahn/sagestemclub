@@ -90,7 +90,6 @@ html, body {
   }
 
   .team {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin:auto;
   }
 }
