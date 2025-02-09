@@ -53,14 +53,14 @@ html, body {
 
 /* CSS for the about me page*/
 
-.column{
+.col{
   float: left;
   width: 33.3%;
   margin-bottom:16px;
   padding: 0 8px;
 }
 
-.column {
+.col {
   padding: 0 16px;
 }
 
@@ -76,7 +76,7 @@ html, body {
 
 /* CSS If statement for Column mobile */
 @media only screen and (max-width: 650px) {
-  .column {
+  .col {
     width: 100%;
     display: block;
   }
