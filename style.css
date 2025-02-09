@@ -20,16 +20,9 @@ html, body {
   float: left;
   color: black;
   text-align: center;
-  padding: 10px 20px;
+  padding: 20px 60px;
   text-decoration: none;
   font-size: 20px;
-}
-
-.topnav div#test {
-  float: left;
-  background-color: aqua;
-  width: 120px;
-  height: 60px;
 }
 /* Style for the image button*/
 .topnav a.imagebutton {
