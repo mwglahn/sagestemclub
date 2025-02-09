@@ -52,6 +52,10 @@ html, body {
 }
 
 /* CSS for the about me page*/
+html {
+  box-sizing: border-box;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
