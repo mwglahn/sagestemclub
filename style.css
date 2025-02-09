@@ -48,6 +48,10 @@ article {
 /* CSS If statement for topnav mobile*/
 @media only screen and (max-width: 760px) {
   /* For mobile phones: */
+
+  .topnav {
+    padding: 0;
+  }
   .topnav a.imagebutton{
     padding: 10px 0px;
     width: 100%
@@ -98,9 +102,9 @@ article {
 /* CSS If statement for Column mobile */
 @media only screen and (max-width: 760px) {
   .col {
-    width: 80%;
+    width: 90%;
     display: block;
-    padding: 0 10%;
+    padding: 0 5%;
   }
 
   #about {
