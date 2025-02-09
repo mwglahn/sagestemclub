@@ -18,7 +18,7 @@ html, body {
   transition: background .25s;
 }
 /* Style the links inside the navigation bar */
-.topnav a.button {
+.topnav a.button, .topnav a.icon {
   float: left;
   color: black;
   text-align: center;
