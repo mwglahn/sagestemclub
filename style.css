@@ -57,12 +57,15 @@ html, body {
   text-align: center;
 }
 
+.about {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .col{
   float: left;
   width: 25%;
   margin-bottom:16px;
-  margin-left: 10%;
-  margin-right: 10%;
   padding: 0 8px;
 }
 
@@ -85,6 +88,9 @@ html, body {
   .col {
     width: 80%;
     display: block;
+  }
+
+  .about {
     margin-left: 5%;
     margin-right: 5%;
   }
