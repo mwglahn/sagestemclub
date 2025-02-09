@@ -52,20 +52,21 @@ html, body {
     padding: 0;
   }
   .topnav a.imagebutton{
-    padding: 10px 0px;
+    padding: 10px 10px 10px 0px;
     width: 80%;
     text-align: left;
   }
   /* For the menu thing brahh*/
   .topnav a.button {
     display:none;
+    /* add in more changes to the button they way too big */
   }
   
   .topnav a.icon {
     width: 20%;
     float: right;
     display: block;
-    padding: 19px 0;
+    padding: 17px 0;
   }
   
   .topnavresponsive {position: relative;}
