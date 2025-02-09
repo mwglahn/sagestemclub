@@ -39,6 +39,11 @@ html, body {
 
 }
 
+.topnav .icon {
+  display: none;
+}
+
+
 /* CSS If statement for topnav mobile*/
 @media only screen and (max-width: 760px) {
   /* For mobile phones: */
@@ -50,15 +55,16 @@ html, body {
     padding: 10px 0px;
     width: 100%
   }
-
+  /* For the menu thing brahh*/
   .topnav a.button {
     display:none;
   }
+  
   .topnav a.icon {
     float: right;
     display: block;
   }
-
+  
   .topnavresponsive {position: relative;}
   .topnavresponsive a.icon {
     position: absolute;
