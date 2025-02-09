@@ -65,6 +65,7 @@ html, body {
     width: 20%;
     float: right;
     display: block;
+    padding: 0;
   }
   
   .topnavresponsive {position: relative;}
