@@ -1,7 +1,15 @@
+/*ALL PAGES CSS*/
+
 html, body {
   height: 100%;
   margin: 0;
   font-family: Verdana, sans-serif;
+}
+
+/*INDEX HTML CSS*/
+
+article {
+  padding: 0 10%;
 }
 
 /*topnav */
@@ -52,7 +60,7 @@ html, body {
   }
 }
 
-/* CSS for the about me page*/
+/*ABOUT HTML CSS*/
 
 #about {
   text-align: center;
