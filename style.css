@@ -23,7 +23,7 @@ html, body {
 }
 
 /* Style for the image button*/
-.topnav #imagebutton {
+.topnav a.imagebutton {
   float: left;
   text-align: center;
   padding: 14px 5px;
