@@ -57,7 +57,7 @@ html, body {
   text-align: center;
 }
 
-.about {
+.team {
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -90,7 +90,7 @@ html, body {
     display: block;
   }
 
-  .about {
+  .team {
     margin-left: 5%;
     margin-right: 5%;
   }
