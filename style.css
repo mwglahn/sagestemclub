@@ -58,8 +58,7 @@ html, body {
 }
 
 .team {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .col{
