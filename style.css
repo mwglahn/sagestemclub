@@ -87,9 +87,6 @@ html, body {
   .col {
     width: 80%;
     display: block;
-  }
-
-  .team {
-    margin:auto;
+    padding: 10%;
   }
 }
