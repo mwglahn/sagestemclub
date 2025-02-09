@@ -7,7 +7,7 @@ html, body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
+  /*background-color: white;*/
   overflow: hidden;
   box-shadow: 0px 5px 5px #bababa;
 }
@@ -24,11 +24,12 @@ html, body {
   text-decoration: none;
   font-size: 20px;
 }
+
 .topnav div.test {
   float: left;
   background-color: aqua;
-  width: 120;
-  height: 60;
+  width: 120px;
+  height: 60px;
 }
 /* Style for the image button*/
 .topnav a.imagebutton {
