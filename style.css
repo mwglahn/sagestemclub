@@ -53,7 +53,7 @@ html, body {
 
 
 /* CSS If statement for topnav mobile*/
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
 
   .topnav {
@@ -141,7 +141,7 @@ article {
   padding: 0 15%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1200px) {
   article {
     padding: 0 5%;
   } 
@@ -183,7 +183,7 @@ article {
 }
 
 /* CSS If statement for Column mobile */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1200px) {
   .col {
     width: 90%;
     display: block;
