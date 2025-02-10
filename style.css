@@ -60,9 +60,6 @@ html, body {
   /* For the menu thing brahh*/
   .topnav a.button {
     display:none;
-    /* add in more changes to the button they way too big */
-    padding: 10px 0;
-    font-size: 16px;
   }
   
   .topnav a.icon {
@@ -72,10 +69,13 @@ html, body {
     padding: 17px 0;
   }
   
-  .topnavresponsive {position: relative;}
+  .topnavresponsive {
+    position: relative;
+  }
+
   .topnavresponsive a.icon {
     position: absolute;
-    right: 0;
+    /*right: 0;*/
     top: 0;
   }
 
@@ -83,6 +83,12 @@ html, body {
     float: none;
     display: block;
     text-align: left;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .topnav.responsive .imagebutton {
+    width: 100%;
   }
 }
 
