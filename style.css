@@ -46,9 +46,9 @@ html, body {
 /* Style for the image button*/
 .topnav a.imagebutton {
   float: left;
-  width: 20vw;
+  width: 19vw;
   /*margin-right: auto;*/
-  padding: 10px 0px 10px 2.5%;
+  padding: 10px 0px 10px 1vw;
   padding: 16px 0;
 }
 
