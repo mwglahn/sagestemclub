@@ -9,7 +9,7 @@ html, body {
 /*TOP NAV */
 .topnav {
   background-color: white;
-  padding-left: 10%;
+  padding-left: 15%;
   /*overflow: hidden;*/
   min-height: 70px;
   box-shadow: 0px 5px 5px #bababa;
@@ -118,6 +118,14 @@ html, body {
 }
 
 /*INDEX HTML CSS*/
+
+header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: white;
+  background: navy;
+}
 
 article {
   padding: 0 15%;
