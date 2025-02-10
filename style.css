@@ -59,7 +59,7 @@ html, body {
   }
   .topnav a.imagebutton{
     padding: 10px 0px 10px 2.5%;
-    width: 77.5%;
+    width: 40%;
     text-align: left;
   }
   /* For the menu thing brahh*/
@@ -93,7 +93,7 @@ html, body {
   .topnav.responsive a:not(a.icon) {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
     padding: 10px 0px 10px 2.5%;
     font-size: 16px;
   }
