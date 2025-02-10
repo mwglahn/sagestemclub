@@ -74,6 +74,7 @@ html, body {
   
   .topnav.responsive {
     position: sticky;
+    top: 0;
   }
 
   .topnav.responsive a.icon {
