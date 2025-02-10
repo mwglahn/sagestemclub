@@ -37,7 +37,7 @@ html, body {
   float: left;
   width: 35%;
   text-align: center;
-  padding: 16px 16px;
+  padding: 16px 0;
 }
 
 /* Change the color of links on hover */
