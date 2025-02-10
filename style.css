@@ -23,7 +23,7 @@ html, body {
 
 .topnav a {
   transition: background .25s;
-  z-index: 1;
+  z-index: 2;
 }
 /* Style the links inside the navigation bar */
 .topnav a.button, .topnav a.icon {
@@ -99,7 +99,7 @@ html, body {
 
   .topnav.responsive a:not(a.icon) {
     float: none;
-    display: block;
+    display: inline;
     text-align: left;
     padding: 10px 0px 10px 2.5%;
     font-size: 16px;
