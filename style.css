@@ -9,6 +9,7 @@ html, body {
 /*TOP NAV */
 .topnav {
   background-color: white;
+  top:0;
   position: sticky;
   padding-left: 30px;
   overflow: hidden;
@@ -50,6 +51,7 @@ html, body {
   /* For mobile phones: */
 
   .topnav {
+    top:0;
     padding: 0; 
     position: sticky;
   }
