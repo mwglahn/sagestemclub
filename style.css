@@ -69,11 +69,11 @@ html, body {
     padding: 17px 0;
   }
   
-  .topnavresponsive {
+  .topnav.responsive {
     position: relative;
   }
 
-  .topnavresponsive a.icon {
+  .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
