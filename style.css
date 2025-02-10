@@ -13,7 +13,7 @@ html, body {
   position: sticky;
   padding-left: 30px;
   /*overflow: hidden;*/
-  /*min-height: 58px;*/
+  min-height: 58px;
   box-shadow: 0px 5px 5px #bababa;
 }
 
@@ -47,15 +47,10 @@ html, body {
 }
 
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
 /* CSS If statement for topnav mobile*/
 @media only screen and (max-width: 760px) {
   /* For mobile phones: */
+
   .topnav {
     top:0;
     padding: 0; 
