@@ -75,9 +75,9 @@ html, body {
   }
 
   .topnav.responsive a.icon {
-    position: absolute;
+    /*position: absolute;
     right: 0;
-    top: 0;
+    top: 0;*/
     box-shadow: 0px 5px 5px #bababa;
   }
 
