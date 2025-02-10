@@ -127,7 +127,7 @@ html, body {
   .topnav.responsive a.button {
     position: relative;
     background-color: #dadada;
-    width: 100%;
+    width: 97.5%;
   }
 
   .topnav.responsive a:not(a.icon) {
