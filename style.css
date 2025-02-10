@@ -18,10 +18,12 @@ html, body {
   position: sticky;
   
   
+  
 }
 
 .topnav a {
   transition: background .25s;
+  display: inline-block;
 }
 /* Style the links inside the navigation bar */
 .topnav a.button, .topnav a.icon {
