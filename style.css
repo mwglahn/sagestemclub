@@ -98,8 +98,7 @@ html, body {
   .topnav.responsive a:not(a.icon) {
     float: none;
     display: block;
-    text-align: right;
-    width: 97.5%;
+    text-align: left;
     padding: 10px 0px 10px 2.5%;
     font-size: 16px;
   }
