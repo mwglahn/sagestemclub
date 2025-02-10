@@ -94,7 +94,7 @@ html, body {
   }
 
   .topnav.responsive a.button {
-    position: absolute;
+    /* position: absolute; */
     background-color: #dadada;
   }
 
