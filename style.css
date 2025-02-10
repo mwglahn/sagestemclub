@@ -88,6 +88,7 @@ html, body {
     min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    transition: display;
   }
 
   /* For the menu thing brahh*/
@@ -115,6 +116,8 @@ html, body {
 
   .topnav.responsive #navDropdown {
     display: block;
+    opacity: 0;
+    transition: opacity .25s;
   }
 
   .topnav.responsive a.icon {
@@ -133,6 +136,7 @@ html, body {
   .topnav.responsive a:not(a.icon) {
     float: none;
     display: block;
+    opacity: 1;
     text-align: left;
     padding: 10px 0px 10px 2.5%;
     font-size: 16px;
