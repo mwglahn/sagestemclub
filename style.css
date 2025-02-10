@@ -23,7 +23,7 @@ html, body {
 
 .topnav a {
   transition: background .25s;
-  display: inline-block;
+  z-index: 1;
 }
 /* Style the links inside the navigation bar */
 .topnav a.button, .topnav a.icon {
@@ -71,7 +71,7 @@ html, body {
   /* For the menu thing brahh*/
   .topnav a.button {
     display:none;
-    z-index: 1;
+    
   }
   
   .topnav a.icon {
