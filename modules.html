@@ -2,24 +2,29 @@
 <html>
   <head>
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-    <META HTTP-EQUIV="Expires" CONTENT="-1">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    
-    <title>Sage STEM Club</title>
-    <link rel="icon" type="image/x-icon" href="/images/stemfavicon.png">
-    <link rel="stylesheet" href="/style.css">
+      <META HTTP-EQUIV="Expires" CONTENT="-1">
+  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="myScript.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Menu icon style sheet for mobile-->
+  
+      <title>Sage STEM Club</title>
+      <link rel="icon" type="image/x-icon" href="/images/stemfavicon.png">
+      <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-     <nav class="topnav">
-        <a class="imagebutton" href="/index.html"><img src="/images/sagestembanner.png" alt="Sage STEM Club Logo" width="240" length=35"></a>
+     <!--navigation menu-->
+     <nav class="topnav" id="myTopnav">
+      <a class="imagebutton" href="/index.html"><img src="/images/sagestembanner.png" alt="Sage STEM Club Logo" width="240" length=35"></a>
+      <div id="navDropdown">
         <a class="button" href="/modules.html"><b>Modules</b></a>
         <a class="button" href="#events"><b>Events</b></a>
-        <a class="button" href="#contact"><b>Contact</b></a>
-        <a class="button" href="/about.html"><b>About</b></a>
-    </nav>
+        <a class="button" href="/contact.html"><b>Contact</b></a>
+        <a class="button" href="#join"><b>Join Us</b></a>
+      </div>
+        <a href="javascript:void(0);" class="icon" onclick="clickMenu()">
+          <i class="fa fa-bars"></i> <!--Menu icon for mobile--></a>
+     </nav>
     <!-- <img src="/images/sagestembanner.png" alt="Sage STEM Club Logo" width="460" length="120"> -->
     <article>
       
