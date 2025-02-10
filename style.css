@@ -16,7 +16,7 @@ html, body {
   /*==NAV BAR STICKY FIXES==*/
   top:0;
   position: sticky;
-  padding-bottom: 200px;
+  margin-bottom: 200px;
   
 }
 
@@ -60,6 +60,7 @@ html, body {
     position: sticky;
     min-height: 58px;
   }
+
   .topnav a.imagebutton{
     padding: 10px 0px 10px 2.5%;
     width: 40%;
