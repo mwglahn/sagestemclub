@@ -84,7 +84,7 @@ html, body {
     background-color: #dadada;
   }
 
-  .topnav.responsive a {
+  .topnav.responsive a:not(a.icon) {
     float: none;
     display: block;
     text-align: left;
