@@ -8,7 +8,7 @@ html, body {
 
 /*TOP NAV */
 .topnav {
-  /*background-color: white;*/
+  background-color: white;
   position: sticky;
   padding-left: 30px;
   overflow: hidden;
@@ -50,7 +50,8 @@ html, body {
   /* For mobile phones: */
 
   .topnav {
-    padding: 0;
+    padding: 0; 
+    position: sticky;
   }
   .topnav a.imagebutton{
     padding: 10px 0px 10px 2.5%;
