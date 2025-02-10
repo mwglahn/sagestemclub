@@ -90,7 +90,7 @@ html, body {
     z-index: 1;
     
     transition: opacity;
-    transition-delay: .25s;
+    transition-duration: .25s;
     opacity: 0;
     
   }
