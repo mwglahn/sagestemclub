@@ -9,7 +9,6 @@ html, body {
 /*TOP NAV */
 .topnav {
   background-color: white;
-  
   padding-left: 30px;
   /*overflow: hidden;*/
   min-height: 70px;
@@ -57,7 +56,7 @@ html, body {
 
   .topnav {
     top:0;
-    padding: 0; 
+    padding-left: 0; 
     position: sticky;
     min-height: 58px;
   }
