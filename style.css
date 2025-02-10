@@ -69,6 +69,7 @@ html, body {
   /* For the menu thing brahh*/
   .topnav a.button {
     display:none;
+    z-index: 1;
   }
   
   .topnav a.icon {
