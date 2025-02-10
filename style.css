@@ -95,13 +95,13 @@ html, body {
     background-color: #dadada;
   }
 
-  .topnav.responsive a:not(a.icon) {
+  /*.topnav.responsive a:not(a.icon) {
     float: none;
     display: block;
     text-align: right;
     padding: 10px 0px 10px 2.5%;
     font-size: 16px;
-  }
+  }*/
 }
 
 /*INDEX HTML CSS*/
