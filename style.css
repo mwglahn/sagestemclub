@@ -23,7 +23,7 @@ html, body {
   z-index: 1;
 }
 /* Style the links inside the navigation bar */
-.topnav a.button, .topnav a.icon {
+.topnav a.button {
   float: left;
   color: black;
   text-align: center;
@@ -32,6 +32,17 @@ html, body {
   text-decoration: none;
   font-size: 20px;
 }
+
+.topnav a.icon {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 23px 0;
+  width: 10vw;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 /* Style for the image button*/
 .topnav a.imagebutton {
   float: left;
@@ -67,6 +78,7 @@ html, body {
     padding: 10px 0px 10px 2.5%;
     width: 77.5%;
     text-align: left;
+    margin: 0;
   }
 
   .topnav #navDropdown {
