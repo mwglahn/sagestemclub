@@ -12,7 +12,7 @@ html, body {
   top:0;
   position: sticky;
   padding-left: 30px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   box-shadow: 0px 5px 5px #bababa;
 }
 
