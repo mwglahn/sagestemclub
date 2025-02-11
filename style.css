@@ -82,16 +82,17 @@ html, body {
   }
 
   .topnav #navDropdown {
-    display: none;
-    /*display:block;  REQUIRED FOR MENU TRANSITION*/  
+    /*display: none;*/
+    display:block;  /*REQUIRED FOR MENU TRANSITION*/  
     position: absolute;
-    height: 0px;
     background-color: #f1f1f1;
     min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     
-    transition: height .25;
+    transition: opacity;
+    transition-duration: .25s;
+    opacity: 0;
     
   }
 
@@ -120,7 +121,7 @@ html, body {
 
   .topnav.responsive #navDropdown {
     display: block;
-    height: 158px;
+    opacity: 1;
   }
 
   .topnav.responsive a.icon {
