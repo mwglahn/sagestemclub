@@ -92,7 +92,6 @@ html, body {
     z-index: 1;
     
     transition: height .25;
-    opacity: 0;
     
   }
 
