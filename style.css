@@ -158,7 +158,8 @@ header {
 header .headerText {
   margin: 0;
   color: white;
-  padding: 75px 0;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 50px;
   text-align: center;
 }
