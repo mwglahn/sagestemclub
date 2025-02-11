@@ -150,7 +150,7 @@ html, body {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background: navy;
   
 }
@@ -167,6 +167,12 @@ article {
 }
 
 @media only screen and (max-width: 1200px) {
+  header {
+    width: 100%;
+    height: 100px;
+    background: navy;
+  }
+  
   article {
     padding: 0 5%;
   } 
