@@ -1,0 +1,75 @@
+:root {
+    --lightpurp: hsl(263, 49%, 90%);
+    --lightblue: hsl(214, 56%, 90%);
+    --lightorange: hsl(30, 95%, 90%);
+    --lightgreen: hsl(93, 83%, 90%);
+    --lightsage: hsl(195, 63%, 90%);
+    --main-bg-color:rgb(218, 217, 217);
+    
+
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(218, 217, 217);
+}
+
+
+/* Sidebar scroll customization */
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+    height: 0;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(122, 122, 122, 0.8);
+    border-radius: 4px;
+}
+
+.hovermain {
+    background-color: none;
+    transition: background .25s;
+}
+
+.hoverpurp {
+    background-color: white;
+    transition: background .25s;
+}
+
+.hoverblue {
+    background-color: white;
+    transition: background .25s;
+}
+
+.hoverorange {
+    background-color: white;
+    transition: background .25s;
+}
+
+.hovergreen {
+    background-color: white;
+    transition: background .25s;
+}
+.hovermain:hover {
+    background-color: var(--lightsage);
+}
+
+.hoverpurp:hover {
+    background: var(--lightpurp);
+}
+
+.hoverblue:hover {
+    background: var(--lightblue);
+}
+
+.hoverorange:hover {
+    background: var(--lightorange);
+}
+
+.hovergreen:hover {
+    background: var(--lightgreen);
+}
