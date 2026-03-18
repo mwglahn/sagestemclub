@@ -19,72 +19,86 @@
 </head>
 
 <body>
-    <div>
-        <div class="container pt-3">
-            <!--NAVBAR-->
-            <div class="container sticky-top mobileunfriendly">
-                <div class="row bg-body-secondary bg-opacity-100 p-2 rounded-3 shadow-sm me-0 ms-0"
-                    style="top: 16px; z-index: 101;">
+    
+        <!--NAVBAR-->
+                <div class="container mobileunfriendly fixed-top">
+                    <div class="row bg-body-secondary bg-opacity-100 p-2 rounded-3 shadow-sm me-0 ms-0"
+                        style="top: 16px; z-index: 101;">
 
-                    <div class="col-md-4">
-                        <a href="/index.html"><img src="../!assets/sagestembanner.png" style="width: 100%;"
-                                class="d-inline-block float-right hovermain p-1 rounded-2"></a>
-                    </div>
+                        <div class="col-md-4">
+                            <a href="/index.html"><img src="../!assets/sagestembanner.png" style="width: 100%;"
+                                    class="d-inline-block float-right hovermain p-1 rounded-2"></a>
+                        </div>
 
-                    <!-- NAVBAR -->
-                    <div class="col-md-8">
-                        <!--NAV FOR LARGER VIEWPORT-->
-                        <ul class="d-flex nav nav-justified align-items-center" style="height: 60px;">
+                        <!-- NAVBAR -->
+                        <div class="col-md-8">
+                            <!--NAV FOR LARGER VIEWPORT-->
+                            <ul class="d-flex nav nav-justified align-items-center" style="height: 60px;">
 
-                            <li class="nav-item m-0 rounded-3 h5 hoverpurp me-2">
-                                <a class="nav-link my-auto" href="#modules">Modules</a>
-                            </li>
+                                <li class="nav-item m-0 rounded-3 h5 hoverpurp me-2">
+                                    <a class="nav-link my-auto" href="#modules">Modules</a>
+                                </li>
 
-                            <li class="nav-item m-0 rounded-3 h5 hoverblue me-2">
-                                <a class="nav-link my-auto" href="#about">About </a>
-                            </li>
+                                <li class="nav-item m-0 rounded-3 h5 hoverblue me-2">
+                                    <a class="nav-link my-auto" href="#about">About </a>
+                                </li>
 
-                            <li class="nav-item m-0 rounded-3 h5 hoverorange me-2">
-                                <a class="nav-link my-auto" href="#resources">Resources</a>
-                            </li>
+                                <li class="nav-item m-0 rounded-3 h5 hoverorange me-2">
+                                    <a class="nav-link my-auto" href="#resources">Resources</a>
+                                </li>
 
-                            <li class="nav-item m-0 rounded-3 h5 hovergreen">
-                                <a class="nav-link my-auto" href="#join">Join!</a>
-                            </li>
+                                <li class="nav-item m-0 rounded-3 h5 hovergreen">
+                                    <a class="nav-link my-auto" href="#join">Join!</a>
+                                </li>
 
-                        </ul>
+                            </ul>
 
 
-                    </div>
-                </div>
-            </div>
-            <!--RWD Nav Menu-->
-            <div class="container mobilefriendly">
-                <div class="row pb-2 bg-body-secondary">
-                    <div class="col-md-3">
-                        <div class="topnav container rounded-3" id="myTopnav" style="background-color: white;">
-                            <a href="#modules" class="rounded-3 navDropdown mt-1">Modules</a>
-                            <a href="#about" class="rounded-3 navDropdown">About</a>
-                            <a href="#resources" class="rounded-3 navDropdown">Resources</a>
-                            <a href="#join" class="rounded-3 navDropdown mb-1" id="navMenuJoin">Join us!</a>
-                            <a href="javascript:void(0);" class="icon rounded-3 mb-1 mt-1" onclick="myFunction()">
-                                <i class="fa fa-bars"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Page Main Content-->
-            <div class="row pt-2 pb-1 me-0 ms-0 mb-2">
-                <div class="col-12">
-                    <div class="container bg-white rounded-3 p-3">
+                <!--RWD Nav Menu-->
+                <div class="container mobilefriendly fixed-top">
+                    <div class="row pb-2" style="z-index: index 100;;">
+                        <div class="col-md-3 ">
+                            <div class="topnav container rounded-3 " id="myTopnav" style="background-color: white;">
+                                <a href="#home" class="rounded-5 navDropdown mt-1 bg-white"><img
+                                        src="./!assets/sagestembanner.png" style="height: 30px;"></a>
+                                <a href="#modules" class="rounded-3 navDropdown mt-1">Modules</a>
+                                <a href="#about" class="rounded-3 navDropdown">About</a>
+                                <a href="#resources" class="rounded-3 navDropdown">Resources</a>
+                                <a href="#join" class="rounded-3 navDropdown mb-1" id="navMenuJoin">Join us!</a>
+                                <a href="javascript:void(0);" class="icon rounded-circle mb-1 mt-1 bg-body"
+                                    onclick="myFunction()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor"
+                                        class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                        <path
+                                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div>
+            <div class="container pt-3">
+                
+                <div class="container pt-3" id="pagecontent">
+                    <!--Page Main Content-->
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2"
+        tabindex="0">
+
+                    <div class="container bg-white rounded-3 p-3 pt-2 pb-1 me-0 ms-0 mb-2" id="home">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-7 p-2">
                                 <h1>Welcome to Sage STEM Club!</h1>
                                 <hr>
-                                <p class="fs-5">The Sage STEM Club explores Science, Technology, Engineering, Math
-                                    topics through hands-on modules and projects. From robotics to rocketry and more,
-                                    its members will learn and hopefully be inspired about all different STEM subjects.
+                                <p class="fs-5">The Sage STEM Club explores Science, Technology, Engineering,
+                                    Math
+                                    topics through hands-on modules and projects. From robotics to rocketry and
+                                    more,
+                                    its members will learn and hopefully be inspired about all different STEM
+                                    subjects.
                                 </p>
                                 <div class="mobileunfriendly">
                                     <p class="fst-italic fw-semibold">Interested in joining our club?</p>
@@ -111,9 +125,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mobilefriendly">
+                            <div class="mobilefriendly p-4">
                                 <hr>
-                                <p class="fst-italic fw-semibold text-center">Interested in joining our club?</p>
+                                <p class="fst-italic fw-semibold text-center">Interested in joining our club?
+                                </p>
 
                                 <div class="d-grid gap-2 col-6 mx-auto" style="width: 200px;">
                                     <a class="btn btn-outline-primary btn-lg fs-3 fw-bold" href="#join"
@@ -121,24 +136,18 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
 
-            <!--Page Secondary Content-->
-            <div class="row pt-2 pb-1 me-0 ms-0">
-                <div class="col">
-                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
-                        class="scrollspy-example-2" tabindex="0">
+                    </div>
+                    <hr>
+
+                    <!--Page Secondary Content-->
+                    <div class="row pt-2 pb-1 me-0 ms-0">
+
                         <!--MODULES-->
                         <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
                             <div id="modules">
                                 <h3 class="d-inline-flex gap-1">
-                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
-                                        href="#modulescollapse" role="button" aria-expanded="false"
-                                        aria-controls="modulescollapse">
-                                        Modules
+                                    Modules
                                     </a>
                                 </h3>
                             </div>
@@ -177,10 +186,8 @@
                         <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
                             <div id="about">
                                 <h3 class="d-inline-flex gap-1">
-                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
-                                        href="#aboutcollpase" role="button" aria-expanded="false"
-                                        aria-controls="aboutcollpase">
-                                        About
+
+                                    About
                                     </a>
                                 </h3>
                             </div>
@@ -303,10 +310,8 @@
                         <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
                             <div id="resources">
                                 <h3 class="d-inline-flex gap-1">
-                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
-                                        href="#resourcescollapse" role="button" aria-expanded="false"
-                                        aria-controls="resourcescollapse">
-                                        Resources
+
+                                    Resources
                                     </a>
                                 </h3>
                             </div>
@@ -314,10 +319,10 @@
                             <div class="collapse show" id="resourcescollapse">
                                 <div class="card card-body">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-md-4 mobileunfriendly">
                                             <img src="./!assets/stemfavicon.png" width="75%" class=" mx-auto d-block">
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-md-8">
                                             <p>If you are interested in explore STEM. Here are some resources that you
                                                 can use to further your learning.</p>
                                             <ul>
@@ -338,7 +343,9 @@
 
 
                                         </div>
-
+                                        <div class="col-md-4 mobilefriendly">
+                                            <img src="./!assets/stemfavicon.png" width="75%" class=" mx-auto d-block">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -347,10 +354,8 @@
                         <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
                             <div id="join">
                                 <h3 class="d-inline-flex gap-1">
-                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
-                                        href="#joincollpase" role="button" aria-expanded="false"
-                                        aria-controls="joincollpase">
-                                        Join Us!
+
+                                    Join Us!
                                     </a>
                                 </h3>
                             </div>
@@ -362,7 +367,8 @@
                                             <p>If you are interested in joining our club, feel free to show up to any
                                                 meeting! Emails are sent out every week alerting members about that
                                                 weeks meeting.<br><span class="fst-italic"
-                                                    style="font-size: small;">(Emails will specifcy the current module
+                                                    style="font-size: small;">(Emails
+                                                    will specifcy the current module
                                                     and events.)</span></p>
 
 
@@ -385,42 +391,33 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
             <!--Footer Content-->
-            <footer class="bd-footer">
-                <div class="row pt-2 pb-1 me-0 ms-0">
-                    <div class="col-12">
-                        <div class="container bg-body-secondary rounded-3 p-3">
-                            <div class="row">
-                                <div class="col-7">
-                                    <h1>goddamn i need a footer</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        </footer>
-        <script>
-            src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin = "anonymous"
 
-            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav container rounded-3") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav container rounded-3";
-                }
+        </div>
+    </div>
+
+    <script>
+        src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin = "anonymous"
+
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav container rounded-3") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav container rounded-3";
             }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            </script>
 
 </body>
 
