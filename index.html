@@ -22,7 +22,7 @@
     <div>
         <div class="container pt-3">
             <!--NAVBAR-->
-            <div class="container sticky-top">
+            <div class="container sticky-top mobileunfriendly">
                 <div class="row bg-body-secondary bg-opacity-100 p-2 rounded-3 shadow-sm me-0 ms-0"
                     style="top: 16px; z-index: 101;">
 
@@ -36,20 +36,20 @@
                         <!--NAV FOR LARGER VIEWPORT-->
                         <ul class="d-flex nav nav-justified align-items-center" style="height: 60px;">
 
-                            <li class="nav-item m-0 rounded-3 h5 hoverpurp me-2 md">
-                                <a class="nav-link my-auto" href="../modules/">Modules</a>
+                            <li class="nav-item m-0 rounded-3 h5 hoverpurp me-2">
+                                <a class="nav-link my-auto" href="#modules">Modules</a>
                             </li>
 
-                            <li class="nav-item m-0 rounded-3 h5 hoverblue me-2 md">
-                                <a class="nav-link my-auto" href="../about/">About </a>
+                            <li class="nav-item m-0 rounded-3 h5 hoverblue me-2">
+                                <a class="nav-link my-auto" href="#about">About </a>
                             </li>
 
-                            <li class="nav-item m-0 rounded-3 h5 hoverorange me-2 md">
-                                <a class="nav-link my-auto" href="../contact/">Resources</a>
+                            <li class="nav-item m-0 rounded-3 h5 hoverorange me-2">
+                                <a class="nav-link my-auto" href="#resources">Resources</a>
                             </li>
 
-                            <li class="nav-item m-0 rounded-3 h5 hovergreen md">
-                                <a class="nav-link my-auto" href="../join/">Join!</a>
+                            <li class="nav-item m-0 rounded-3 h5 hovergreen">
+                                <a class="nav-link my-auto" href="#join">Join!</a>
                             </li>
 
                         </ul>
@@ -58,24 +58,42 @@
                     </div>
                 </div>
             </div>
+            <!--RWD Nav Menu-->
+            <div class="container mobilefriendly">
+                <div class="row pb-2 bg-body-secondary">
+                    <div class="col-md-3">
+                        <div class="topnav container rounded-3" id="myTopnav" style="background-color: white;">
+                            <a href="#modules" class="rounded-3 navDropdown mt-1">Modules</a>
+                            <a href="#about" class="rounded-3 navDropdown">About</a>
+                            <a href="#resources" class="rounded-3 navDropdown">Resources</a>
+                            <a href="#join" class="rounded-3 navDropdown mb-1" id="navMenuJoin">Join us!</a>
+                            <a href="javascript:void(0);" class="icon rounded-3 mb-1 mt-1" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--Page Main Content-->
-            <div class="row pt-2 pb-1 me-0 ms-0">
+            <div class="row pt-2 pb-1 me-0 ms-0 mb-2">
                 <div class="col-12">
                     <div class="container bg-white rounded-3 p-3">
                         <div class="row">
-                            <div class="col-7">
+                            <div class="col-md-7">
                                 <h1>Welcome to Sage STEM Club!</h1>
                                 <hr>
                                 <p class="fs-5">The Sage STEM Club explores Science, Technology, Engineering, Math
                                     topics through hands-on modules and projects. From robotics to rocketry and more,
                                     its members will learn and hopefully be inspired about all different STEM subjects.
                                 </p>
-                                <p class="fst-italic fw-semibold">Interested in joining our club?</p>
-                                <a class="btn btn-outline-primary btn-lg fs-3 fw-bold" href="/join/index.html"
-                                    role="button">Join Us!</a>
+                                <div class="mobileunfriendly">
+                                    <p class="fst-italic fw-semibold">Interested in joining our club?</p>
+                                    <a class="btn btn-outline-primary btn-lg fs-3 fw-bold" href="#join"
+                                        role="button">Join Us!</a>
+                                </div>
                             </div>
                             <!--Image carousel-->
-                            <div class="col-5">
+                            <div class="col-md-5">
                                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="5000">
@@ -93,80 +111,317 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="mobilefriendly">
+                                <hr>
+                                <p class="fst-italic fw-semibold text-center">Interested in joining our club?</p>
+
+                                <div class="d-grid gap-2 col-6 mx-auto" style="width: 200px;">
+                                    <a class="btn btn-outline-primary btn-lg fs-3 fw-bold" href="#join"
+                                        role="button">Join Us!</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <hr>
 
             <!--Page Secondary Content-->
             <div class="row pt-2 pb-1 me-0 ms-0">
-                <div class="col-md-4">
-                    <div class="container bg-white rounded-3 p-3" style="height: 100%;">
-                        <h2 class="text-center">Modules</h2>
-                        <hr>
-                        <div class="rounded-3 placeholder" style="background-color: black; height: 300px; width: 100%;">
-                        </div>
-                        <p class="fs-5 pt-1">In the Sage STEM Club, we deep-dive on STEM specific branches in small
-                            units called modules.</p>
-                        <hr>
-                        <p class="fs-6 text-center">Want to see what we have done in the past?</p>
-                        <a class="btn btn-outline-primary btn-lg fs-4 fw-bold" href="/modules/index.html" role="button"
-                            style="width:100%;">Modules</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="container bg-white rounded-3 p-3" style="height: 100%;">
-                        <h2 class="text-center">Opportunties</h2>
-                        <hr>
-                        <div class="rounded-3 placeholder "
-                            style="background-color: black; height: 300px; width: 100%;"></div>
-                        <p class="fs-5 pt-1">Saeg STEM Club offers many opportunties to all highschoolers, allowing
-                            students to take the lead in their curiosity.</p>
-                        <hr>
-                        <div class="container">
-                            <p class="fs-6 text-center">Wondering what Sage STEM Club can do for you?</p>
-                            <a class="btn btn-outline-primary btn-lg fs-4 fw-bold" href="/modules/index.html"
-                                role="button" style="width:100%;">Opportunties</a>
-                        </div>
+                <div class="col">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                        class="scrollspy-example-2" tabindex="0">
+                        <!--MODULES-->
+                        <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
+                            <div id="modules">
+                                <h3 class="d-inline-flex gap-1">
+                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
+                                        href="#modulescollapse" role="button" aria-expanded="false"
+                                        aria-controls="modulescollapse">
+                                        Modules
+                                    </a>
+                                </h3>
+                            </div>
 
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="container bg-white rounded-3 p-3" style="height: 100%;">
-                        <h2 class="text-center">Events</h2>
-                        <hr>
-                        <div class="rounded-3 placeholder" style="background-color: black; height: 300px; width: 100%;">
+                            <div class="collapse show" id="modulescollapse">
+                                <div class="card card-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <p>At Sage STEM Club, we teach our memebers through the methodology of
+                                                units, which we call a module. As a club, we will spend a couple of
+                                                weeks exploring a new sector of STEM and engage the participants of the
+                                                club by creating fun challenges and competitions to provide intrinsic
+                                                and extrinsic motivation.</p>
+                                            <p> In the past, we have done modules on:</p>
+                                            <ul>
+                                                <li>Web Development</li>
+                                                <li>Robotics</li>
+                                                <li>Architecture</li>
+                                                <li>3D printing and modeling</li>
+                                                <li><a href="https://zerorobotics.mit.edu/tournaments/44/info/299/0/">
+                                                        ZeroRobotics Competition (Alliance 7)</a></li>
+                                                <li>Electrical Engineering</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./!images/Screenshot 2026-03-17 181744.png" width="100%"
+                                                class="rounded-3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <p class="fs-5 pt-1">Sage STEM Club has events planned to encourage participation in a community
-                            of like-minded thinkers!</p>
-                        <hr>
-                        <p class="fs-6 text-center">Curious about what's coming up?</p>
-                        <a class="btn btn-outline-primary btn-lg fs-4 fw-bold" href="/modules/index.html" role="button"
-                            style="width:100%;">Events</a>
+                        <!--ABOUT-->
+
+                        <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
+                            <div id="about">
+                                <h3 class="d-inline-flex gap-1">
+                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
+                                        href="#aboutcollpase" role="button" aria-expanded="false"
+                                        aria-controls="aboutcollpase">
+                                        About
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <div class="collapse show" id="aboutcollpase">
+                                <div class="card card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h4 class="text-center">Why We Started:</h4>
+                                            <hr>
+                                            <p>Our goal with Sage STEM club is to create a learning environment that is
+                                                safe
+                                                and welcoming for students to come together and learn about their STEM
+                                                related interests. We want our club to foster creativity and inquiry
+                                                within
+                                                the club members, and are always looking for ways to incorporate their
+                                                interests into club modules.</p>
+                                        </div>
+                                        <hr class="mobilefriendly">
+                                        <div class="col-md-6">
+
+                                            <h4 class="text-center">Mission Statement</h4>
+                                            <hr>
+                                            <h5 class="fst-italic">"To Encourage Students to Explore their curiosities
+                                                with the help of
+                                                Science,
+                                                Technology, Engineering, And Mathematics."</p>
+                                        </div>
+                                        <hr>
+                                        <h2 class="text-center fst-italic mb-4">Meet the club staff!</h2>
+
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 mobilefriendly">
+                                            <img src="./!images/headshots/profile/cf.png" width="100%"
+                                                class="rounded-circle">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h2>Colin Falconer</h2>
+                                            <h4>STEM Teacher</h4>
+                                            <hr>
+                                            <p>Colin Falconer is Sage International's design, computer science, and
+                                                digital literacy teacher. His prior educational and professional
+                                                experience in the STEM field provides unqiue perspectives and critical
+                                                thinking that allow members to realize their full potential. <span
+                                                    class="fst-italic"> There is no one as perfect for a STEM club
+                                                    advisor as Colin Falconer.
+                                                </span>
+                                            <p>Email: <a
+                                                    href="mailto:colin.falconer@sageintl.org">colin.falconer@sageintl.org</a>
+                                            </p>
+                                            </p>
+
+
+                                        </div>
+                                        <div class="col-md-3 mobileunfriendly">
+                                            <img src="./!images/headshots/profile/cf.png" width="100%"
+                                                class="rounded-circle">
+                                        </div>
+
+                                    </div>
+
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./!images/headshots/profile/mgnew.png" width="100%"
+                                                class="rounded-circle">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h2>Michael Glahn</h2>
+                                            <h4>Ameratur Coder and Tech Enthusiast</h4>
+                                            <hr>
+                                            <p>Michael Glahn is a Senior at Sage International. He was one of the first
+                                                in years to complete all twelve units of the<a
+                                                    href="https://academy.cs.cmu.edu/course-info"> Carnegie Melon
+                                                    University Computer Sceince CS1 Curriculum</a> at Sage. In his free
+                                                time, he dabbles in programming, web development <span
+                                                    class="fst-italic">(he made this website!)</span>, and working on
+                                                modifying technology.
+                                            </p>
+                                            <p>Email: <a
+                                                    href="mailto:michael.glahn@sageintl.org">michael.glahn@sageintl.org</a>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+
+                                    <div class="row">
+                                        <div class="col-md-3 mobilefriendly">
+                                            <img src="./!images/headshots/profile/nbnew.png" width="100%"
+                                                class="rounded-circle">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h2>Noah Baumhover-Strasser</h2>
+                                            <h4>Chief Engineer and Mr. Science</h4>
+                                            <hr>
+                                            <p>Noah was born to be a scientist. His intelligence in nearly every
+                                                catagory related to science has yet to be rivaled. Noah has the ability
+                                                to create whatever his mind comes up with, wether that be a Tesla Coil
+                                                or a soon to be robotic head. His dedication and intellect makes him a
+                                                strong leader.
+                                            </p>
+                                            <p>Email: <a
+                                                    href="mailto:noah.baumhoverstrasser@sageintl.org">noah.baumhoverstrasser@sageintl.org</a>
+                                            </p>
+
+                                        </div>
+                                        <div class="col-md-3 mobileunfriendly">
+                                            <img src="./!images/headshots/profile/nbnew.png" width="100%"
+                                                class="rounded-circle">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--RESOURCES-->
+                        <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
+                            <div id="resources">
+                                <h3 class="d-inline-flex gap-1">
+                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
+                                        href="#resourcescollapse" role="button" aria-expanded="false"
+                                        aria-controls="resourcescollapse">
+                                        Resources
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <div class="collapse show" id="resourcescollapse">
+                                <div class="card card-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="./!assets/stemfavicon.png" width="75%" class=" mx-auto d-block">
+                                        </div>
+                                        <div class="col-8">
+                                            <p>If you are interested in explore STEM. Here are some resources that you
+                                                can use to further your learning.</p>
+                                            <ul>
+                                                <li><a href="https://summerofcode.withgoogle.com/">Google Summer of
+                                                        Code</a></li>
+                                                <li><a href="https://www.freecodecamp.org/learn">freeCodeCamp</a></li>
+                                                <li><a href="https://www.tinkercad.com/">TINKERCAD</a></li>
+                                                <li><a href="https://www.the-nref.org/curricula/">NASA Robotics
+                                                        Curriculum Clearinghouse</a></li>
+                                                <li><a href="https://godotengine.org/">Godot (Open-source game
+                                                        engine)</a></li>
+                                                <li><a href="https://leetcode.com/">LeetCode</a></li>
+                                                <li><a href="https://projecteuler.net/">Project Euler</a></li>
+                                                <li><a href="https://www.allaboutcircuits.com/">All About Circuits</a>
+                                                </li>
+
+                                            </ul>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--JOIN-->
+                        <div class="container bg-white rounded-3 p-3 mb-2" style="height: 100%;">
+                            <div id="join">
+                                <h3 class="d-inline-flex gap-1">
+                                    <a class="text-decoration-none fw-bolder" data-bs-toggle="collapse"
+                                        href="#joincollpase" role="button" aria-expanded="false"
+                                        aria-controls="joincollpase">
+                                        Join Us!
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <div class="collapse show" id="joincollpase">
+                                <div class="card card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>If you are interested in joining our club, feel free to show up to any
+                                                meeting! Emails are sent out every week alerting members about that
+                                                weeks meeting.<br><span class="fst-italic"
+                                                    style="font-size: small;">(Emails will specifcy the current module
+                                                    and events.)</span></p>
+
+
+
+                                            <p>We meet <span class="fw-bolder">every Wednesday from 4pm - 5pm
+                                                    in Mr. Falconers room.</span></p>
+
+                                            <p class="fst-italic">Hope to see you there!</p>
+
+
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <iframe class="rounded-3"
+                                                src="https://calendar.google.com/calendar/embed?src=c79ee469f35a535ed6bb4d76faf47fb449596c8c11e783e2bc29864fcf4a1296%40group.calendar.google.com&amp;ctz=America%2FDenver"
+                                                style="border: 0" width="100%" height="400px" frameborder="0"
+                                                scrolling="no"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!--Footer Content-->
             <footer class="bd-footer">
                 <div class="row pt-2 pb-1 me-0 ms-0">
-                        <div class="col-12">
-                            <div class="container bg-body-secondary rounded-3 p-3">
-                                <div class="row">
-                                    <div class="col-7">
-                                        <h1>INSERT FOOTER INFO HERE</h1>
-                                    </div> 
+                    <div class="col-12">
+                        <div class="container bg-body-secondary rounded-3 p-3">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h1>goddamn i need a footer</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </footer>
+        </div>
+        </footer>
+        <script>
+            src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin = "anonymous"
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    </script>
-    
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav container rounded-3") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav container rounded-3";
+                }
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+            </script>
+
 </body>
 
 </html>
